@@ -1,4 +1,4 @@
-const backendUrl =  'http://localhost:9001/send-mail'
+const backendUrl =  'https://portfolio-backend-vf80.onrender.com/send-mail'
 const sendMailApi = async(userData)=>{
     console.log(userData)
     const response = await fetch(backendUrl,{
